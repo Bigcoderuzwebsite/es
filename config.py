@@ -5,7 +5,7 @@ class Config:
     DEBUG = True
     DEVELOPMENT = True
     SECRET_KEY = 'EnglishWords024#$'
-    SQLALCHEMY_DATABASE_URI = 'postgresql://DB_USER:DB_PASS@DB_HOST/DB_NAME'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:h%25UANST4Rh%2BPL%26z@db.qvfcfogcyhkzzwtzdqsm.supabase.co:5432/postgres'
     SQLALCHEMY_ECHO = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ENGINE_OPTIONS = {'json_serializer': lambda obj: json.dumps(obj, ensure_ascii=False)}
